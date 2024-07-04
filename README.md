@@ -7,7 +7,7 @@ PJM Hourly Energy Consumption Data PJM Interconnection LLC (PJM) is a regional t
 # Model
 This project employs the XGBoost model for forecasting. Key steps include: <br>
 - Data preprocessing: Handling Outliers, feature engineering.
-- Training: Training the XGBoost model with Cross validation to ensure having a robust model. <br>
+- Training: Training the XGBoost model with Cross validation using TimeSeriesSplit to ensure having a robust model. <br>
 - Evaluation: For this project, RMSE was chosen as the primary evaluation metric for the following reasons: <br>
 Interpretability: RMSE is measured in the same units as the target variable (energy consumption in kWh), making it easier to interpret and understand the magnitude of the prediction errors. <br>
 Penalizing Large Errors: RMSE gives higher weight to larger errors due to the squaring of the error terms. This is particularly important for energy consumption forecasting, where larger errors could have more significant implications for energy management and planning. <br>
