@@ -8,7 +8,7 @@ PJM Hourly Energy Consumption Data PJM Interconnection LLC (PJM) is a regional t
 This project employs the XGBoost model for forecasting. Key steps include: <br>
 - Data preprocessing: Handling Outliers, feature engineering.
 - Training: Training the XGBoost model with Cross validation using TimeSeriesSplit to ensure having a robust model. <br>
-   - ![image](https://github.com/mahdihammi/Energy_Consumption_Forecasting_Using_XGBoost/assets/89527502/57434cb1-e3cd-4b00-99f6-c51939ff15e9) <br>
+  ![image](https://github.com/mahdihammi/Energy_Consumption_Forecasting_Using_XGBoost/assets/89527502/57434cb1-e3cd-4b00-99f6-c51939ff15e9) <br>
    - Score across folds 3742.5833 <br>
      Fold scores:[3760.8277187583353, 3420.313091887879, 3478.018038580526, 4052.5712055405547, 4001.186553933809]
 
