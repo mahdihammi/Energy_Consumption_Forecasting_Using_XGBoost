@@ -9,6 +9,6 @@ This project employs the XGBoost model for forecasting. Key steps include: <br>
 - Data preprocessing: Handling Outliers, feature engineering.
 - Training: Training the XGBoost model with Cross validation using TimeSeriesSplit to ensure having a robust model. <br>
 - Evaluation: For this project, RMSE was chosen as the primary evaluation metric for the following reasons: <br>
-Interpretability: RMSE is measured in the same units as the target variable (energy consumption in kWh), making it easier to interpret and understand the magnitude of the prediction errors. <br>
-Penalizing Large Errors: RMSE gives higher weight to larger errors due to the squaring of the error terms. This is particularly important for energy consumption forecasting, where larger errors could have more significant implications for energy management and planning. <br>
+    - Interpretability: RMSE is measured in the same units as the target variable (energy consumption in kWh), making it easier to interpret and understand the magnitude of the prediction errors. <br>
+    -Penalizing Large Errors: RMSE gives higher weight to larger errors due to the squaring of the error terms. This is particularly important for energy consumption forecasting, where larger errors could have more significant implications for energy management and planning. <br>
 ![image](https://github.com/mahdihammi/Energy_Consumption_Forecasting_Using_XGBoost/assets/89527502/11ce706c-7f1a-498b-833a-ef9bbb00b5e9)
